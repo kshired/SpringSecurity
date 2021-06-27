@@ -9,10 +9,10 @@ import java.util.List;
 @RequestMapping("api/v1/students")
 public class StudentController {
     private static final List<Student> STUDENTS = Arrays.asList(
-            new Student(1,"James Bond"),
-            new Student(2, "Maria Jones"),
-            new Student(3, "Anna Smith"),
-            new Student(4,"kim")
+            new Student(1,"kim"),
+            new Student(2, "seongil"),
+            new Student(3, "shiroed1211"),
+            new Student(4,"test")
     );
 
     @GetMapping(path = "{studentId}")
